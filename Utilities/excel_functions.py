@@ -32,7 +32,6 @@ class Excel_Operations:
         sheet = workbook[self.sheet_number]
         sheet.cell(row=row_number,column=column_number).value = data
         workbook.save(self.filename)
-#         excel_obj.write_data(row_number=start_row + i, column_number=8, data=data[i])
 
 
 
